@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<software>
+
+    <name>Example</name>
+    
+    <lens_type>Ari-Zeiss Master Primes</lens_type>
+        <focal_length>33</focal_length>     <field_of_view>52.999° Vertical</field_of_view>
+        <focal_length>66</focal_length>     <field_of_view>45.999° Vertical</field_of_view>
+    <end>End of Ari-Zeiss Master Prims</end>
+    
+</software>

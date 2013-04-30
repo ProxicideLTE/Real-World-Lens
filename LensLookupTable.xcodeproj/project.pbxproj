@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE010B3015D2E139007ED8F9 /* LensBySoftwareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B2F15D2E139007ED8F9 /* LensBySoftwareTableViewController.m */; };
+		DE010B3315D2E14D007ED8F9 /* LensBySoftwareTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE010B3215D2E14D007ED8F9 /* LensBySoftwareTableViewController.xib */; };
+		DE010B3E15D2E645007ED8F9 /* SoftwareByLensTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B3C15D2E645007ED8F9 /* SoftwareByLensTableViewController.m */; };
+		DE010B3F15D2E645007ED8F9 /* SoftwareByLensTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE010B3D15D2E645007ED8F9 /* SoftwareByLensTableViewController.xib */; };
+		DE11C0D915E2718B00E8889C /* readme in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0D815E2718B00E8889C /* readme */; };
+		DE11C0E215E2796600E8889C /* 3D Studio Max.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0DB15E2796600E8889C /* 3D Studio Max.xml */; };
+		DE11C0E315E2796600E8889C /* lens_by_software.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0DC15E2796600E8889C /* lens_by_software.xml */; };
+		DE11C0E415E2796600E8889C /* Maya.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0DD15E2796600E8889C /* Maya.xml */; };
+		DE11C0E515E2796600E8889C /* software_by_lens.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0DE15E2796600E8889C /* software_by_lens.xml */; };
+		DE11C0E615E2796600E8889C /* UDK.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0DF15E2796600E8889C /* UDK.xml */; };
+		DE11C0E715E2796600E8889C /* Unity.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0E015E2796600E8889C /* Unity.xml */; };
+		DE11C0E815E2796600E8889C /* XSI.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0E115E2796600E8889C /* XSI.xml */; };
+		DE11C0EA15E27BB100E8889C /* Example.xml in Resources */ = {isa = PBXBuildFile; fileRef = DE11C0E915E27BB100E8889C /* Example.xml */; };
+		DE2250C515C1A1C9003C63DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250C415C1A1C9003C63DE /* UIKit.framework */; };
+		DE2250C715C1A1C9003C63DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250C615C1A1C9003C63DE /* Foundation.framework */; };
+		DE2250C915C1A1C9003C63DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250C815C1A1C9003C63DE /* CoreGraphics.framework */; };
+		DE2250CF15C1A1CA003C63DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2250CD15C1A1CA003C63DE /* InfoPlist.strings */; };
+		DE2250D115C1A1CA003C63DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2250D015C1A1CA003C63DE /* main.m */; };
+		DE2250D515C1A1CA003C63DE /* SIRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2250D415C1A1CA003C63DE /* SIRTAppDelegate.m */; };
+		DE2250D815C1A1CA003C63DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2250D615C1A1CA003C63DE /* MainStoryboard_iPhone.storyboard */; };
+		DE2250DB15C1A1CA003C63DE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2250D915C1A1CA003C63DE /* MainStoryboard_iPad.storyboard */; };
+		DE2250DE15C1A1CA003C63DE /* SIRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2250DD15C1A1CA003C63DE /* SIRTViewController.m */; };
+		DE2250E615C1A1CA003C63DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250E515C1A1CA003C63DE /* SenTestingKit.framework */; };
+		DE2250E715C1A1CA003C63DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250C415C1A1C9003C63DE /* UIKit.framework */; };
+		DE2250E815C1A1CA003C63DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2250C615C1A1C9003C63DE /* Foundation.framework */; };
+		DE2250F015C1A1CA003C63DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2250EE15C1A1CA003C63DE /* InfoPlist.strings */; };
+		DE2250F315C1A1CA003C63DE /* LensLookupTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2250F215C1A1CA003C63DE /* LensLookupTableTests.m */; };
+		DE9B9BC615DBE2F9003B80A9 /* AppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9B9BC415DBE2F9003B80A9 /* AppNavigationController.m */; };
+		DE9B9BC715DBE2F9003B80A9 /* AppNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9B9BC515DBE2F9003B80A9 /* AppNavigationController.xib */; };
+		DE9DB4EE15D2BA4300105DAB /* SoftwareView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9DB4EC15D2BA4300105DAB /* SoftwareView.m */; };
+		DE9DB4EF15D2BA4300105DAB /* SoftwareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9DB4ED15D2BA4300105DAB /* SoftwareView.xib */; };
+		DED1292F15C832F200563AF2 /* LensKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1292D15C832F200563AF2 /* LensKitView.m */; };
+		DED1293015C832F200563AF2 /* LensKitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED1292E15C832F200563AF2 /* LensKitView.xib */; };
+		DEDBF3CF15D9367C007851A5 /* LensFOVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDBF3CD15D9367C007851A5 /* LensFOVTableViewController.m */; };
+		DEDBF3D015D9367C007851A5 /* LensFOVTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDBF3CE15D9367C007851A5 /* LensFOVTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE2250E915C1A1CA003C63DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2250B715C1A1C9003C63DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE2250BF15C1A1C9003C63DE;
+			remoteInfo = LensLookupTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE010B2F15D2E139007ED8F9 /* LensBySoftwareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LensBySoftwareTableViewController.m; sourceTree = "<group>"; };
+		DE010B3115D2E14D007ED8F9 /* LensBySoftwareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensBySoftwareTableViewController.h; sourceTree = "<group>"; };
+		DE010B3215D2E14D007ED8F9 /* LensBySoftwareTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LensBySoftwareTableViewController.xib; sourceTree = "<group>"; };
+		DE010B3B15D2E645007ED8F9 /* SoftwareByLensTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftwareByLensTableViewController.h; sourceTree = "<group>"; };
+		DE010B3C15D2E645007ED8F9 /* SoftwareByLensTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftwareByLensTableViewController.m; sourceTree = "<group>"; };
+		DE010B3D15D2E645007ED8F9 /* SoftwareByLensTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoftwareByLensTableViewController.xib; sourceTree = "<group>"; };
+		DE11C0D815E2718B00E8889C /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		DE11C0DB15E2796600E8889C /* 3D Studio Max.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "3D Studio Max.xml"; path = "XML/3D Studio Max.xml"; sourceTree = "<group>"; };
+		DE11C0DC15E2796600E8889C /* lens_by_software.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lens_by_software.xml; path = XML/lens_by_software.xml; sourceTree = "<group>"; };
+		DE11C0DD15E2796600E8889C /* Maya.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Maya.xml; path = XML/Maya.xml; sourceTree = "<group>"; };
+		DE11C0DE15E2796600E8889C /* software_by_lens.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = software_by_lens.xml; path = XML/software_by_lens.xml; sourceTree = "<group>"; };
+		DE11C0DF15E2796600E8889C /* UDK.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = UDK.xml; path = XML/UDK.xml; sourceTree = "<group>"; };
+		DE11C0E015E2796600E8889C /* Unity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Unity.xml; path = XML/Unity.xml; sourceTree = "<group>"; };
+		DE11C0E115E2796600E8889C /* XSI.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = XSI.xml; path = XML/XSI.xml; sourceTree = "<group>"; };
+		DE11C0E915E27BB100E8889C /* Example.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Example.xml; path = XML/Example.xml; sourceTree = "<group>"; };
+		DE2250C015C1A1C9003C63DE /* LensLookupTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensLookupTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2250C415C1A1C9003C63DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE2250C615C1A1C9003C63DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE2250C815C1A1C9003C63DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE2250CC15C1A1C9003C63DE /* LensLookupTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LensLookupTable-Info.plist"; sourceTree = "<group>"; };
+		DE2250CE15C1A1CA003C63DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2250D015C1A1CA003C63DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE2250D215C1A1CA003C63DE /* LensLookupTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LensLookupTable-Prefix.pch"; sourceTree = "<group>"; };
+		DE2250D315C1A1CA003C63DE /* SIRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIRTAppDelegate.h; sourceTree = "<group>"; };
+		DE2250D415C1A1CA003C63DE /* SIRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIRTAppDelegate.m; sourceTree = "<group>"; };
+		DE2250D715C1A1CA003C63DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DE2250DA15C1A1CA003C63DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DE2250DC15C1A1CA003C63DE /* SIRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIRTViewController.h; sourceTree = "<group>"; };
+		DE2250DD15C1A1CA003C63DE /* SIRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIRTViewController.m; sourceTree = "<group>"; };
+		DE2250E415C1A1CA003C63DE /* LensLookupTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensLookupTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2250E515C1A1CA003C63DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE2250ED15C1A1CA003C63DE /* LensLookupTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LensLookupTableTests-Info.plist"; sourceTree = "<group>"; };
+		DE2250EF15C1A1CA003C63DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2250F115C1A1CA003C63DE /* LensLookupTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LensLookupTableTests.h; sourceTree = "<group>"; };
+		DE2250F215C1A1CA003C63DE /* LensLookupTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LensLookupTableTests.m; sourceTree = "<group>"; };
+		DE2E121515CAC16D00828B06 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DE9B9BC315DBE2F9003B80A9 /* AppNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigationController.h; sourceTree = "<group>"; };
+		DE9B9BC415DBE2F9003B80A9 /* AppNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigationController.m; sourceTree = "<group>"; };
+		DE9B9BC515DBE2F9003B80A9 /* AppNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppNavigationController.xib; sourceTree = "<group>"; };
+		DE9DB4EB15D2BA4300105DAB /* SoftwareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftwareView.h; sourceTree = "<group>"; };
+		DE9DB4EC15D2BA4300105DAB /* SoftwareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftwareView.m; sourceTree = "<group>"; };
+		DE9DB4ED15D2BA4300105DAB /* SoftwareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoftwareView.xib; sourceTree = "<group>"; };
+		DED1292C15C832F200563AF2 /* LensKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensKitView.h; sourceTree = "<group>"; };
+		DED1292D15C832F200563AF2 /* LensKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LensKitView.m; sourceTree = "<group>"; };
+		DED1292E15C832F200563AF2 /* LensKitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LensKitView.xib; sourceTree = "<group>"; };
+		DEDBF3CC15D9367C007851A5 /* LensFOVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensFOVTableViewController.h; sourceTree = "<group>"; };
+		DEDBF3CD15D9367C007851A5 /* LensFOVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LensFOVTableViewController.m; sourceTree = "<group>"; };
+		DEDBF3CE15D9367C007851A5 /* LensFOVTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LensFOVTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2250BD15C1A1C9003C63DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250C515C1A1C9003C63DE /* UIKit.framework in Frameworks */,
+				DE2250C715C1A1C9003C63DE /* Foundation.framework in Frameworks */,
+				DE2250C915C1A1C9003C63DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2250E015C1A1CA003C63DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250E615C1A1CA003C63DE /* SenTestingKit.framework in Frameworks */,
+				DE2250E715C1A1CA003C63DE /* UIKit.framework in Frameworks */,
+				DE2250E815C1A1CA003C63DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE010B1B15D2D79E007ED8F9 /* By Lens */ = {
+			isa = PBXGroup;
+			children = (
+				DE010B3B15D2E645007ED8F9 /* SoftwareByLensTableViewController.h */,
+				DE010B3C15D2E645007ED8F9 /* SoftwareByLensTableViewController.m */,
+				DE010B3D15D2E645007ED8F9 /* SoftwareByLensTableViewController.xib */,
+			);
+			name = "By Lens";
+			sourceTree = "<group>";
+		};
+		DE010B3415D2E3DD007ED8F9 /* By Software */ = {
+			isa = PBXGroup;
+			children = (
+				DE010B3115D2E14D007ED8F9 /* LensBySoftwareTableViewController.h */,
+				DE010B2F15D2E139007ED8F9 /* LensBySoftwareTableViewController.m */,
+				DE010B3215D2E14D007ED8F9 /* LensBySoftwareTableViewController.xib */,
+			);
+			name = "By Software";
+			sourceTree = "<group>";
+		};
+		DE010B4415D2ECF7007ED8F9 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				DED7A9FF15D42EF1005F934F /* Software & Lens Type */,
+			);
+			name = Output;
+			sourceTree = "<group>";
+		};
+		DE2250B515C1A1C9003C63DE = {
+			isa = PBXGroup;
+			children = (
+				DE11C0D815E2718B00E8889C /* readme */,
+				DE9ED53B15D29E6C002F4023 /* XML */,
+				DE2250FC15C1A36B003C63DE /* Custom Views */,
+				DE2250CA15C1A1C9003C63DE /* LensLookupTable */,
+				DE2250EB15C1A1CA003C63DE /* LensLookupTableTests */,
+				DE2250C315C1A1C9003C63DE /* Frameworks */,
+				DE2250C115C1A1C9003C63DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2250C115C1A1C9003C63DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2250C015C1A1C9003C63DE /* LensLookupTable.app */,
+				DE2250E415C1A1CA003C63DE /* LensLookupTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2250C315C1A1C9003C63DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E121515CAC16D00828B06 /* libxml2.dylib */,
+				DE2250C415C1A1C9003C63DE /* UIKit.framework */,
+				DE2250C615C1A1C9003C63DE /* Foundation.framework */,
+				DE2250C815C1A1C9003C63DE /* CoreGraphics.framework */,
+				DE2250E515C1A1CA003C63DE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2250CA15C1A1C9003C63DE /* LensLookupTable */ = {
+			isa = PBXGroup;
+			children = (
+				DE2250D315C1A1CA003C63DE /* SIRTAppDelegate.h */,
+				DE2250D415C1A1CA003C63DE /* SIRTAppDelegate.m */,
+				DE2250D615C1A1CA003C63DE /* MainStoryboard_iPhone.storyboard */,
+				DE2250D915C1A1CA003C63DE /* MainStoryboard_iPad.storyboard */,
+				DE2250DC15C1A1CA003C63DE /* SIRTViewController.h */,
+				DE2250DD15C1A1CA003C63DE /* SIRTViewController.m */,
+				DE2250CB15C1A1C9003C63DE /* Supporting Files */,
+			);
+			path = LensLookupTable;
+			sourceTree = "<group>";
+		};
+		DE2250CB15C1A1C9003C63DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2250CC15C1A1C9003C63DE /* LensLookupTable-Info.plist */,
+				DE2250CD15C1A1CA003C63DE /* InfoPlist.strings */,
+				DE2250D015C1A1CA003C63DE /* main.m */,
+				DE2250D215C1A1CA003C63DE /* LensLookupTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE2250EB15C1A1CA003C63DE /* LensLookupTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2250F115C1A1CA003C63DE /* LensLookupTableTests.h */,
+				DE2250F215C1A1CA003C63DE /* LensLookupTableTests.m */,
+				DE2250EC15C1A1CA003C63DE /* Supporting Files */,
+			);
+			path = LensLookupTableTests;
+			sourceTree = "<group>";
+		};
+		DE2250EC15C1A1CA003C63DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2250ED15C1A1CA003C63DE /* LensLookupTableTests-Info.plist */,
+				DE2250EE15C1A1CA003C63DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE2250FC15C1A36B003C63DE /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE9B9BC215DBE28A003B80A9 /* Navigation Controller */,
+				DE010B4415D2ECF7007ED8F9 /* Output */,
+				DED6102415C6B39F0027AEED /* Lens Type */,
+				DE2250FD15C1A374003C63DE /* Software */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		DE2250FD15C1A374003C63DE /* Software */ = {
+			isa = PBXGroup;
+			children = (
+				DE010B1B15D2D79E007ED8F9 /* By Lens */,
+				DE9DB4EA15D2BA0400105DAB /* All Software */,
+			);
+			name = Software;
+			sourceTree = "<group>";
+		};
+		DE9B9BC215DBE28A003B80A9 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE9B9BC315DBE2F9003B80A9 /* AppNavigationController.h */,
+				DE9B9BC415DBE2F9003B80A9 /* AppNavigationController.m */,
+				DE9B9BC515DBE2F9003B80A9 /* AppNavigationController.xib */,
+			);
+			name = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		DE9DB4EA15D2BA0400105DAB /* All Software */ = {
+			isa = PBXGroup;
+			children = (
+				DE9DB4EB15D2BA4300105DAB /* SoftwareView.h */,
+				DE9DB4EC15D2BA4300105DAB /* SoftwareView.m */,
+				DE9DB4ED15D2BA4300105DAB /* SoftwareView.xib */,
+			);
+			name = "All Software";
+			sourceTree = "<group>";
+		};
+		DE9ED53B15D29E6C002F4023 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				DE11C0E915E27BB100E8889C /* Example.xml */,
+				DE11C0DB15E2796600E8889C /* 3D Studio Max.xml */,
+				DE11C0DD15E2796600E8889C /* Maya.xml */,
+				DE11C0DF15E2796600E8889C /* UDK.xml */,
+				DE11C0E015E2796600E8889C /* Unity.xml */,
+				DE11C0E115E2796600E8889C /* XSI.xml */,
+				DEDBF3D115D93990007851A5 /* Filters */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		DED1293715C84D5100563AF2 /* All Lens */ = {
+			isa = PBXGroup;
+			children = (
+				DED1292C15C832F200563AF2 /* LensKitView.h */,
+				DED1292D15C832F200563AF2 /* LensKitView.m */,
+				DED1292E15C832F200563AF2 /* LensKitView.xib */,
+			);
+			name = "All Lens";
+			sourceTree = "<group>";
+		};
+		DED6102415C6B39F0027AEED /* Lens Type */ = {
+			isa = PBXGroup;
+			children = (
+				DE010B3415D2E3DD007ED8F9 /* By Software */,
+				DED1293715C84D5100563AF2 /* All Lens */,
+			);
+			name = "Lens Type";
+			sourceTree = "<group>";
+		};
+		DED7A9FF15D42EF1005F934F /* Software & Lens Type */ = {
+			isa = PBXGroup;
+			children = (
+				DEDBF3CC15D9367C007851A5 /* LensFOVTableViewController.h */,
+				DEDBF3CD15D9367C007851A5 /* LensFOVTableViewController.m */,
+				DEDBF3CE15D9367C007851A5 /* LensFOVTableViewController.xib */,
+			);
+			name = "Software & Lens Type";
+			sourceTree = "<group>";
+		};
+		DEDBF3D115D93990007851A5 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				DE11C0DC15E2796600E8889C /* lens_by_software.xml */,
+				DE11C0DE15E2796600E8889C /* software_by_lens.xml */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2250BF15C1A1C9003C63DE /* LensLookupTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2250F615C1A1CA003C63DE /* Build configuration list for PBXNativeTarget "LensLookupTable" */;
+			buildPhases = (
+				DE2250BC15C1A1C9003C63DE /* Sources */,
+				DE2250BD15C1A1C9003C63DE /* Frameworks */,
+				DE2250BE15C1A1C9003C63DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LensLookupTable;
+			productName = LensLookupTable;
+			productReference = DE2250C015C1A1C9003C63DE /* LensLookupTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE2250E315C1A1CA003C63DE /* LensLookupTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2250F915C1A1CA003C63DE /* Build configuration list for PBXNativeTarget "LensLookupTableTests" */;
+			buildPhases = (
+				DE2250DF15C1A1CA003C63DE /* Sources */,
+				DE2250E015C1A1CA003C63DE /* Frameworks */,
+				DE2250E115C1A1CA003C63DE /* Resources */,
+				DE2250E215C1A1CA003C63DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2250EA15C1A1CA003C63DE /* PBXTargetDependency */,
+			);
+			name = LensLookupTableTests;
+			productName = LensLookupTableTests;
+			productReference = DE2250E415C1A1CA003C63DE /* LensLookupTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2250B715C1A1C9003C63DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DE2250BA15C1A1C9003C63DE /* Build configuration list for PBXProject "LensLookupTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE2250B515C1A1C9003C63DE;
+			productRefGroup = DE2250C115C1A1C9003C63DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2250BF15C1A1C9003C63DE /* LensLookupTable */,
+				DE2250E315C1A1CA003C63DE /* LensLookupTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2250BE15C1A1C9003C63DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250CF15C1A1CA003C63DE /* InfoPlist.strings in Resources */,
+				DE2250D815C1A1CA003C63DE /* MainStoryboard_iPhone.storyboard in Resources */,
+				DE2250DB15C1A1CA003C63DE /* MainStoryboard_iPad.storyboard in Resources */,
+				DED1293015C832F200563AF2 /* LensKitView.xib in Resources */,
+				DE9DB4EF15D2BA4300105DAB /* SoftwareView.xib in Resources */,
+				DE010B3315D2E14D007ED8F9 /* LensBySoftwareTableViewController.xib in Resources */,
+				DE010B3F15D2E645007ED8F9 /* SoftwareByLensTableViewController.xib in Resources */,
+				DEDBF3D015D9367C007851A5 /* LensFOVTableViewController.xib in Resources */,
+				DE9B9BC715DBE2F9003B80A9 /* AppNavigationController.xib in Resources */,
+				DE11C0D915E2718B00E8889C /* readme in Resources */,
+				DE11C0E215E2796600E8889C /* 3D Studio Max.xml in Resources */,
+				DE11C0E315E2796600E8889C /* lens_by_software.xml in Resources */,
+				DE11C0E415E2796600E8889C /* Maya.xml in Resources */,
+				DE11C0E515E2796600E8889C /* software_by_lens.xml in Resources */,
+				DE11C0E615E2796600E8889C /* UDK.xml in Resources */,
+				DE11C0E715E2796600E8889C /* Unity.xml in Resources */,
+				DE11C0E815E2796600E8889C /* XSI.xml in Resources */,
+				DE11C0EA15E27BB100E8889C /* Example.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2250E115C1A1CA003C63DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250F015C1A1CA003C63DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE2250E215C1A1CA003C63DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2250BC15C1A1C9003C63DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250D115C1A1CA003C63DE /* main.m in Sources */,
+				DE2250D515C1A1CA003C63DE /* SIRTAppDelegate.m in Sources */,
+				DE2250DE15C1A1CA003C63DE /* SIRTViewController.m in Sources */,
+				DED1292F15C832F200563AF2 /* LensKitView.m in Sources */,
+				DE9DB4EE15D2BA4300105DAB /* SoftwareView.m in Sources */,
+				DE010B3015D2E139007ED8F9 /* LensBySoftwareTableViewController.m in Sources */,
+				DE010B3E15D2E645007ED8F9 /* SoftwareByLensTableViewController.m in Sources */,
+				DEDBF3CF15D9367C007851A5 /* LensFOVTableViewController.m in Sources */,
+				DE9B9BC615DBE2F9003B80A9 /* AppNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2250DF15C1A1CA003C63DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2250F315C1A1CA003C63DE /* LensLookupTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE2250EA15C1A1CA003C63DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE2250BF15C1A1C9003C63DE /* LensLookupTable */;
+			targetProxy = DE2250E915C1A1CA003C63DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE2250CD15C1A1CA003C63DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2250CE15C1A1CA003C63DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE2250D615C1A1CA003C63DE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2250D715C1A1CA003C63DE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2250D915C1A1CA003C63DE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2250DA15C1A1CA003C63DE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2250EE15C1A1CA003C63DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2250EF15C1A1CA003C63DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2250F415C1A1CA003C63DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE2250F515C1A1CA003C63DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2250F715C1A1CA003C63DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensLookupTable/LensLookupTable-Prefix.pch";
+				INFOPLIST_FILE = "LensLookupTable/LensLookupTable-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE2250F815C1A1CA003C63DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensLookupTable/LensLookupTable-Prefix.pch";
+				INFOPLIST_FILE = "LensLookupTable/LensLookupTable-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE2250FA15C1A1CA003C63DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LensLookupTable.app/LensLookupTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensLookupTable/LensLookupTable-Prefix.pch";
+				INFOPLIST_FILE = "LensLookupTableTests/LensLookupTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE2250FB15C1A1CA003C63DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LensLookupTable.app/LensLookupTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensLookupTable/LensLookupTable-Prefix.pch";
+				INFOPLIST_FILE = "LensLookupTableTests/LensLookupTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2250BA15C1A1C9003C63DE /* Build configuration list for PBXProject "LensLookupTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2250F415C1A1CA003C63DE /* Debug */,
+				DE2250F515C1A1CA003C63DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2250F615C1A1CA003C63DE /* Build configuration list for PBXNativeTarget "LensLookupTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2250F715C1A1CA003C63DE /* Debug */,
+				DE2250F815C1A1CA003C63DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2250F915C1A1CA003C63DE /* Build configuration list for PBXNativeTarget "LensLookupTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2250FA15C1A1CA003C63DE /* Debug */,
+				DE2250FB15C1A1CA003C63DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2250B715C1A1C9003C63DE /* Project object */;
+}

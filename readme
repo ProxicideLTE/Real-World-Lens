@@ -1,0 +1,129 @@
+Screen Industries Research and Training Centre
+Real World CGI Lens Comparisions iOS App
+August 2012
+Jayvin Duong
+
+Table of Contents:
+Description
+Data Flow Diagram
+Current Version
+What's Left/Missing?
+Adding New Software
+
+=================================================================================================
+
+Description:
+This app is a simple "lookup" table, where users in this app will search for lens data based on filters.
+These filters are the following: by software, by lens type (it says lens kit in the code).
+As well users will be given the chance to save their favourite lens for easy access, when the user starts the app.
+
+=================================================================================================
+
+Data Flow Diagram:
+See printout on the whiteboard, and/or ask Michael Irwin.
+
+=================================================================================================
+
+Current Version:
+Right now this app will allow users to select software packages and lens types. Then the app will display the following lens information
+based on what the user selected. These lens information are being displayed from XML files found the XML directory.
+Also, a back button is implemented in the navigation bar just in case if the user wants to go back and choose another filter.
+
+The following is the diagram of how the code flows through the app, this flow does not show the back button feature.
+
+*user actions*
+
+Main Page
+*user selects Software*
+->SoftwareView
+*user selects a software package*
+->LensBySoftwareTableViewController
+*user selects a lens type*
+->LensFOVTableViewController
+
+Main Page
+*user selects Lens Type*
+->LensView
+*user selects a lens type*
+->SoftwareByLensTableViewController
+*user selects a software package*
+->LensFOVTableViewController
+
+=================================================================================================
+
+What's Left/Missing:
+
+- Designs (colours, graphics, etc)
+- Favourites feature has not been implmentated
+- In the main menu, there is no implmentation for the By FOV option
+- The back button does not go back to the main menu
+- A link for the SIRT site
+- Some data entry the some of the software packages that exist in the menus
+    
+    The following is the directory of where the data lies, currently there all Microsoft Excel files.
+    SIRT File Server/_SIRT_Projects/___Previs and Virtual Production Projects/Real World n CGI Lens Comparisions/___Data Sheets - CGI Packages
+
+=================================================================================================
+
+Adding New Software
+The following are the instructions on how to software package and lens information to the app. 
+All you need to do is make changes to the XML files, not the source code.
+
+1. In the XML directory, open both lens_by_software.xml and software_by_lens.xml
+2. In lens_by_software.xml add your software name and list the supported lens types
+
+Example:
+	<software>
+		<name>Software Name Goes Here</name>
+		<supported_lens_type>Some Lens Type #1</supported_lens_type>
+		<supported_lens_type>Some Lens Type #2</supported_lens_type>
+		<supported_lens_type>Some Lens Type #3</supported_lens_type>
+		<supported_lens_type>Some Lens Type #4</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+The end tag is nessecary.
+
+3. In software_by_lens .xml add your software to the supported lens_types. Make sure the software name is the EXACT same as the file above.
+
+Example:
+	<type>
+		<name>Ari-Zeiss Master Primes</name>
+		<supported_software>Software Name</supported_software>
+		<end>End of the list</end>
+	</type>
+    
+The end tag is nessecary.
+    
+4. Run the application now to test to see your software. The when you select both your software and a lens kit no information will be displayed.
+
+5. In order to get some information displayed in the LensFOVTableViewController you need to make an XML file. Inside the XML directory,
+make a new XML file that matches the software name. Example if your software name was Microsoft Word, name your XML file Microsoft Word.
+
+6. In your new XML file be sure to looks like the following:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<software>
+
+    <name>Your Software Name</name>
+    
+    <lens_type>Ari-Zeiss Master Primes</lens_type>
+        <focal_length>33</focal_length>     <field_of_view>52.999° Vertical</field_of_view>
+        <focal_length>66</focal_length>     <field_of_view>45.999° Vertical</field_of_view>
+    <end>End of Ari-Zeiss Master Prims</end>
+    
+</software>
+
+The end tag is nessecary. Also If your software has more lens type add them in this XML file using this syntax.
+
+7. Once your done populating the XML file with data, you need to add the XML to Xcode. 
+    To do this you need to right click on the XML folder/group found on the left menu.
+
+8. Select "Add Files to ...."
+
+9. Browse and add your XML file.
+
+10. Run the project, and now your should see your data being displayed in the final view.
+
+Should you have any troubles with this contact me (Jayvin) @ duongja@sheridanc.on.ca

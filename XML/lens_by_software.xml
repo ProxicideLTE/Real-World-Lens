@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<software_apps>
+	
+	<software>
+		<name>3D Studio Max</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+
+	<software>
+		<name>Maya</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+	<software>
+		<name>Motion Builder</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+	<software>
+		<name>XSI</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+    <software>
+		<name>Houdini</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+        <software>
+		<name>Example</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+    <software>
+		<name>Google Sketchup</name>
+        <supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+        <supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+    <software>
+		<name>UDK</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+    
+    <software>
+		<name>Unity</name>
+		<supported_lens_type>Ari-Zeiss Master Primes</supported_lens_type>
+		<supported_lens_type>Ari-Zeiss Ultra Primes</supported_lens_type>
+		<supported_lens_type>Cooke S4 Primes</supported_lens_type>
+		<supported_lens_type>Panavision Primo Primes</supported_lens_type>
+		<end>End of the list</end>
+	</software>
+	
+</software_apps>

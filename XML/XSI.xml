@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<software>
+
+    <name>XSI</name>
+    
+    <lens_type>Ari-Zeiss Master Primes</lens_type>
+        <focal_length>14</focal_length>     <field_of_view>66.87°</field_of_view>
+        <focal_length>16</focal_length>     <field_of_view>63.992°</field_of_view>
+        <focal_length>18</focal_length>     <field_of_view>59.974°</field_of_view>
+        <focal_length>21</focal_length>     <field_of_view>53.81°</field_of_view>
+        <focal_length>25</focal_length>     <field_of_view>46.55°</field_of_view>
+        <focal_length>27</focal_length>     <field_of_view>44.258°</field_of_view>
+        <focal_length>32</focal_length>     <field_of_view>39.527°</field_of_view>
+        <focal_length>35</focal_length>     <field_of_view>35.96°</field_of_view>
+        <focal_length>40</focal_length>     <field_of_view>35.749°</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>26.568°</field_of_view>
+        <focal_length>65</focal_length>     <field_of_view>21.144°</field_of_view>
+        <focal_length>75</focal_length>     <field_of_view>19.538°</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>13.983</field_of_view>
+        <focal_length>150</focal_length>    <field_of_view>9.893°</field_of_view>
+    <end>End of Ari-Zeiss Master Prims</end>
+    
+    <lens_type>Ari-Zeiss Ultra Primes</lens_type>
+        <focal_length>16</focal_length>     <field_of_view>64.842°</field_of_view>
+        <focal_length>20</focal_length>     <field_of_view>57.426°</field_of_view>
+        <focal_length>24</focal_length>     <field_of_view>50.434°</field_of_view>
+        <focal_length>32</focal_length>     <field_of_view>38.991°</field_of_view>
+        <focal_length>40</focal_length>     <field_of_view>31.886°</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>26.067°</field_of_view>
+        <focal_length>85</focal_length>     <field_of_view>16.158°</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>13.165°</field_of_view>
+        <focal_length>180</focal_length>    <field_of_view>7.57°</field_of_view>
+    <end>End of Ari-Zeiss Ultra Prims</end>
+    
+    <lens_type>Cooke S4 Primes</lens_type>
+        <focal_length>30</focal_length>     <field_of_view>62.506°</field_of_view>
+        <focal_length>36</focal_length>     <field_of_view>48.667°</field_of_view>
+        <focal_length>48</focal_length>     <field_of_view>39.457°</field_of_view>
+        <focal_length>72</focal_length>     <field_of_view>27.162°</field_of_view>
+        <focal_length>108</focal_length>    <field_of_view>18.353°</field_of_view>
+        <focal_length>144.1</focal_length>  <field_of_view>13.882°</field_of_view>
+    <end>End of Cooke S4 Prims</end>
+    
+    <lens_type>Panavision Primo Primes</lens_type>
+        <focal_length>10</focal_length>     <field_of_view>89.36°</field_of_view>
+        <focal_length>14.5</focal_length>   <field_of_view>75.193°</field_of_view>
+        <focal_length>17.5</focal_length>   <field_of_view>66.345°</field_of_view>
+        <focal_length>21</focal_length>     <field_of_view>57.303°</field_of_view>
+        <focal_length>27</focal_length>     <field_of_view>46.18°</field_of_view>
+        <focal_length>35</focal_length>     <field_of_view>37.117°</field_of_view>
+        <focal_length>40</focal_length>     <field_of_view>33.462°</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>26.777°</field_of_view>
+        <focal_length>65</focal_length>     <field_of_view>20.946°</field_of_view>
+        <focal_length>75</focal_length>     <field_of_view>18.667°</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>14.05°</field_of_view>
+        <focal_length>125</focal_length>    <field_of_view>10.98°</field_of_view>
+        <focal_length>150</focal_length>    <field_of_view>9.287°</field_of_view>
+    <end>End of Panavision Primo Prims</end>
+    
+</software>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<software>
+
+    <name>Unity</name>
+    
+    <lens_type>Ari-Zeiss Master Primes</lens_type>
+        <focal_length>14</focal_length>     <field_of_view>52.668° Vertical</field_of_view>
+        <focal_length>16</focal_length>     <field_of_view>50.214° Vertical</field_of_view>
+        <focal_length>21</focal_length>     <field_of_view>41.672° Vertical</field_of_view>
+        <focal_length>25</focal_length>     <field_of_view>35.761° Vertical</field_of_view>
+        <focal_length>27</focal_length>     <field_of_view>33.992° Vertical</field_of_view>
+        <focal_length>32</focal_length>     <field_of_view>30.163° Vertical</field_of_view>
+        <focal_length>40</focal_length>     <field_of_view>27.195° Vertical</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>20.083° Vertical</field_of_view>
+        <focal_length>65</focal_length>     <field_of_view>15.937° Vertical</field_of_view>
+        <focal_length>75</focal_length>     <field_of_view>14.716° Vertical</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>10.51° Vertical</field_of_view>
+        <focal_length>150</focal_length>    <field_of_view>7.428° Vertical</field_of_view>
+
+    <end>End of Ari-Zeiss Master Prims</end>
+    
+    <lens_type>Ari-Zeiss Ultra Primes</lens_type>
+        <focal_length>16</focal_length>     <field_of_view>50.942° Vertical</field_of_view>
+        <focal_length>20</focal_length>     <field_of_view>44.669° Vertical</field_of_view>
+        <focal_length>24</focal_length>     <field_of_view>38.906° Vertical</field_of_view>
+        <focal_length>32</focal_length>     <field_of_view>29.74° Vertical</field_of_view>
+        <focal_length>40</focal_length>     <field_of_view>24.186° Vertical</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>19.698° Vertical</field_of_view>
+        <focal_length>85</focal_length>     <field_of_view>12.154° Vertical</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>9.983° Vertical</field_of_view>
+        <focal_length>180</focal_length>    <field_of_view>5.681° Vertical</field_of_view>
+    <end>End of Ari-Zeiss Ultra Prims</end>
+    
+    <lens_type>Cooke S4 Primes</lens_type>
+        <focal_length>18</focal_length>     <field_of_view>48.608° Vertical</field_of_view>
+        <focal_length>25</focal_length>     <field_of_view>37.47° Vertical</field_of_view>
+        <focal_length>32</focal_length>     <field_of_view>30.108° Vertical</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>20.539° Vertical</field_of_view>
+        <focal_length>75</focal_length>     <field_of_view>13.816° Vertical</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>10.389° Vertical</field_of_view>
+    <end>End of Cooke S4 Prims</end>
+    
+    <lens_type>Panavision Primo Primes</lens_type>
+        <focal_length>10</focal_length>     <field_of_view>73.126° Vertical</field_of_view>
+        <focal_length>14.5</focal_length>   <field_of_view>60.013° Vertical</field_of_view>
+        <focal_length>17.5</focal_length>   <field_of_view>52.235° Vertical</field_of_view>
+        <focal_length>21</focal_length>     <field_of_view>44.566° Vertical</field_of_view>
+        <focal_length>27</focal_length>     <field_of_view>35.463° Vertical</field_of_view>
+        <focal_length>35</focal_length>     <field_of_view>28.266° Vertical</field_of_view>
+        <focal_length>50</focal_length>     <field_of_view>20.243° Vertical</field_of_view>
+        <focal_length>65</focal_length>     <field_of_view>15.786° Vertical</field_of_view>
+        <focal_length>75</focal_length>     <field_of_view>14.055° Vertical</field_of_view>
+        <focal_length>100</focal_length>    <field_of_view>10.561° Vertical</field_of_view>
+        <focal_length>125</focal_length>    <field_of_view>8.246° Vertical</field_of_view>
+        <focal_length>150</focal_length>    <field_of_view>6.972° Vertical</field_of_view>
+    <end>End of Panavision Primo Prims</end>
+    
+</software>

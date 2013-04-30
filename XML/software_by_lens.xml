@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lens_types>
+	
+	<type>
+		<name>Ari-Zeiss Master Primes</name>
+		<supported_software>3D Studio Max</supported_software>
+        <supported_software>Maya</supported_software>
+        <supported_software>Motion Builder</supported_software>
+        <supported_software>XSI</supported_software>
+        <supported_software>Houdini</supported_software>
+        <supported_software>Example</supported_software>
+        <supported_software>Google Sketchup</supported_software>
+        <supported_software>UDK</supported_software>
+        <supported_software>Unity</supported_software>
+		<end>End of the list</end>
+	</type>
+    
+	<type>
+		<name>Ari-Zeiss Ultra Primes</name>
+		<supported_software>3D Studio Max</supported_software>
+        <supported_software>Maya</supported_software>
+        <supported_software>Motion Builder</supported_software>
+        <supported_software>XSI</supported_software>
+        <supported_software>Google Sketchup</supported_software>
+        <supported_software>UDK</supported_software>
+        <supported_software>Unity</supported_software>
+		<end>End of the list</end>
+	</type>
+
+	<type>
+		<name>Cooke S4 Primes</name>
+		<supported_software>3D Studio Max</supported_software>
+        <supported_software>Maya</supported_software>
+        <supported_software>Motion Builder</supported_software>
+        <supported_software>XSI</supported_software>
+        <supported_software>Google Sketchup</supported_software>
+        <supported_software>UDK</supported_software>
+        <supported_software>Unity</supported_software>
+		<end>End of the list</end>
+	</type>
+    
+	<type>
+		<name>Panavision Primo Primes</name>
+		<supported_software>3D Studio Max</supported_software>
+        <supported_software>Maya</supported_software>
+        <supported_software>Motion Builder</supported_software>
+        <supported_software>XSI</supported_software>
+        <supported_software>Google Sketchup</supported_software>
+        <supported_software>UDK</supported_software>
+        <supported_software>Unity</supported_software>
+		<end>End of the list</end>
+	</type>
+	
+</lens_types>
